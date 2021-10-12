@@ -1,4 +1,4 @@
-name: Littlelink Docker
+name: Hugo
 
 on:
   push:
