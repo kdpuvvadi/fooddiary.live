@@ -30,10 +30,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          #publish_branch: pages
-          publish_dir: /public
-          # allow_empty_commit: true
-          # force_orphan: true
+          publish_dir: ./public
 
       # - name: lint
       #   uses: luke142367/Docker-Lint-Action@v1.1.1
