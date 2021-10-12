@@ -31,6 +31,7 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
+          CNAME: blog.fooddiary.live
 
       # - name: lint
       #   uses: luke142367/Docker-Lint-Action@v1.1.1
